@@ -9,18 +9,21 @@ public static class GamesStore {
             Title = "The Elder Scroll IV: Oblivion",
             Genre = "RPG",
             ReleaseYear = 2006,
+            IsFavourite = false
         },
         new Game {
             Id = 2,
             Title = "The Witcher 3: Wild Hunt",
             Genre = "RPG",
             ReleaseYear = 2015,
+            IsFavourite = false
         },
         new Game {
             Id = 3,
             Title = "Grand Theft Auto: San Andreas",
             Genre = "Action-adventure",
             ReleaseYear = 2004,
+            IsFavourite = true
         },
     };
     public static int NextId() => _nextId++;
